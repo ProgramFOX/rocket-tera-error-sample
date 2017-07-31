@@ -1,0 +1,13 @@
+[package]
+name = "rocket-tera-error"
+version = "0.1.0"
+authors = ["ProgramFOX <programfox@hotmail.be>"]
+
+[dependencies]
+rocket = "*"
+rocket_codegen = "*"
+
+[dependencies.rocket_contrib]
+version = "*"
+default-features = false
+features = ["json", "tera_templates"]
